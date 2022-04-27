@@ -21,7 +21,7 @@ section {
     padding: 20px;
     width: 500px;
     margin: 3.5em auto;
-    box-sizing: 3px 3px 10px rgba(0, 0, 0, 0.363);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
 }
 
 section select {
