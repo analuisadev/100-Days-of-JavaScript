@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #282731;
+    text-align: center;
+}
+
+header h1 {
+    font-family: sans-serif;
+    margin-top: 5vh;
+    color: white;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    border: 1px solid gray;
+    display: inline-block;
+}
+
+.stage {
+    margin-top: 10vh;
+}
+
+.o {
+    position: relative;
+}
+
+.o:after {
+    content: '\1F6E1';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 50px;
+    line-height: 100px;
+}
+
+.x {
+    position: relative;
+}
+
+.x:after {
+    content: '\2694';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 50px;
+    line-height: 100px;
+}
